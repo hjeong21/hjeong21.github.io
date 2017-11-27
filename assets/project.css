@@ -1,0 +1,187 @@
+body, html {   
+	font-family: 'Encode Sans Condensed', sans-serif;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+#topcontainer{
+	display:inline-block;
+	margin-left:20px;
+}
+#logo{
+	position:relative;
+	display:inline-block;
+	height: 70px;
+	width: 50px;
+}
+
+#logo-img{
+	position:relative;
+	object-fit:cover;
+	height:100%;
+	width:100%;
+}
+#site_header{
+	display:inline-block;
+	position:relative;
+	text-align:center;
+	font-size:50px;
+}
+
+.Heading{
+	font-size: 30px;
+	text-align:center;
+	font-style:bold;
+	margin:20px;
+}
+.Section{
+	height:400px;
+	width:100%;
+}
+#one{
+	background-image: url("img/bg1.jpg");
+}
+#two{
+	background-image: url("img/background.jpg");
+}
+
+#three{
+	background-image: url("img/background3.jpg");
+}
+
+a{
+	color : white;
+}
+
+#gallery{
+	display:inline-block;
+	position:relative;
+	top:40px;
+	left:10%;
+	font-size:50px;
+}
+
+#about{
+	display:inline-block;
+	position:relative;
+	top:40px;
+	left:35%;
+	font-size:50px;
+}
+
+#contact{
+	display:inline-block;
+	position:relative;
+	top:40px;
+	left:60%;
+	font-size:50px;
+	align-content:center;
+}
+
+#Gallery{
+	position:relative;
+	width:1000px;
+	margin: 0 auto;
+
+}
+
+#menu-container{
+	color: white;
+}
+
+
+.pics{
+	display:inline-block;
+	position:relative;
+	height: 300px;
+	width: 300px;
+}
+
+.pics img {
+	height: 100%;
+	width: 100%;
+}
+
+]
+.image{
+	display:block;
+	width:100%;
+	height:auto;
+}
+.overlay{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	opacity: 0;
+	transition:.5s ease;
+	background-color:black;
+	color:white;
+	font-size:20px;
+	text-align:center;
+	line-height:200px;
+}
+
+.pics:hover .overlay{
+	opacity:50;
+}
+
+#about-container{
+	display:inline-block;
+	margin:40px;
+}
+
+#mepic-container{
+	height:200px;
+	width:200px;
+	display:inline-block;
+}
+#mepic{
+	height:100%;
+	width:100%;
+	display:inline-block;
+}
+
+#metext-container{
+	position:relative;
+	display:inline-block;
+	 width: calc(100vw - 290px);
+}
+
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 10px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 6px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: yellow;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #CCCC00;
+}
+
+.contactbox {
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 50px;
+    border-radius:10px;
+}
